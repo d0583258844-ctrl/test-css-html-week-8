@@ -1,0 +1,33 @@
+html {
+  margin-bottom: 14px;
+  height: 100%;
+  margin: -6px;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgba(154, 68, 180, 0.644),
+    rgba(197, 124, 64, 0.63),
+    rgba(0, 0, 255, 0)
+  );
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 0.4%;
+  min-height: 100%;
+  backdrop-filter: blur(10%);
+}
+
+.logo {
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: 1%;
+  left: 1%;
+}
+
+.logo2 {
+  margin-top: 5px;
+  margin-left: 24px;
+}
