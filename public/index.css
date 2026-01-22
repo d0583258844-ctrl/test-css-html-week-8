@@ -20,6 +20,24 @@ body {
   margin: 0.8%;
 }
 
+.myNavbar .login {
+    position: absolute;
+    top: 0;
+    right: 0;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+}
+
+.myNavbar .Sign {
+    position: absolute;
+    top: 0;
+    right: 0;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+
 .logo {
   position: absolute;
   display: inline-block;

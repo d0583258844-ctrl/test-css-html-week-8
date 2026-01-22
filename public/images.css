@@ -1,3 +1,7 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 html {
   margin-bottom: 14px;
   height: 100%;
@@ -18,6 +22,28 @@ body {
   backdrop-filter: blur(10%);
 }
 
+.myNavbar {
+  margin-bottom: 25%;
+}
+
+.myNavbar .login {
+  position: absolute;
+  top: 10px;
+  right: 8rem;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+}
+
+.myNavbar .Sign {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+
 .logo {
   position: absolute;
   display: inline-block;
@@ -30,4 +56,30 @@ body {
 .logo2 {
   margin-top: 5px;
   margin-left: 24px;
+}
+
+.images {
+  margin: 3%;
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 4%;
+  padding: 20%;
+  max-width: 50%;
+  margin-bottom: 25%;
+}
+
+.Imageslist {
+  list-style: none;
+}
+
+.imagescontainer {
+  position: relative;
+  border: 2px solid;
+  width: 50vw;
+  height: 100%;
+}
+
+.realimage {
+  display: inline-block;
 }
