@@ -45,3 +45,30 @@ body {
   margin-top: 0.1px;
 }
 
+.Fathersection {
+  position: relative;
+  border: 2px solid rgba(190, 187, 187, 0.13);
+  border-radius: 1em;
+  min-width: 20vw;
+  min-height: 2px;
+  max-height: 2px;
+  margin: 30%;
+  margin-left: 30%;
+  padding: 5%;
+}
+
+input {
+  border: none;
+  color: black;
+}
+
+.title {
+  margin-top: -25%;
+  position: absolute;
+  color: black;
+}
+
+.myform {
+  margin-left: -20px;
+  margin-top: 15px;
+}
